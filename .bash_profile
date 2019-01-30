@@ -40,7 +40,7 @@ function funcGoto(){
 alias stopMerge="git merge --abort"
 
 #Remove all changes at current, reset back to the current head. 
-alias back="git reset --head"
+alias back="git reset --hard"
 
 #Remove all changes at current, reset back to the current head, remove untracked files. 
 alias wipe="back && git clean -df"
